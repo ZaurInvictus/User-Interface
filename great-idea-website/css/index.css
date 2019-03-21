@@ -69,20 +69,92 @@ h1, h2, h3, h4, h5 {
 // MY CODE */
 
 .container {
-	width: 900px;
+	width: 1000px;
 	margin: auto;
 	border: 1px solid red;
 }
 
+
+/* ///////////////////////////////////////////////
+// HEADER*/
+
 header nav {
+	margin-top: 25px;
 	display: inline-block;
-	margin-top: 35px;
 }
+
+ header img.logo {
+	vertical-align: middle;
+}  
 
 header nav a {
-	margin: 0 20px;
+	font-size: 15px;
+	vertical-align: middle;
+  margin: 35px;
+	text-decoration: none;
+	color: rgba(182, 182, 182, 0.9);
 }
 
-.middle-img {
-	margin-left: 10px;
+
+.intro {
+	position: relative;
+	display: inline-block;
+  margin-top: 20px;
+	width: 100%;
+	height: 500px;
+}
+
+.header-img {
+	position: absolute;
+	top: 13%;
+	left: 55%;
+}
+
+.intro h1 {
+	text-align: center;
+	position: absolute;
+	top:23%;
+	left: 15%; 
+	width: 320px;
+	border: 1px solid #fff;
+	font-size: 80px;
+}
+
+
+.btn {
+	position: absolute;
+	top: 75%;
+	left: 23%; 
+	width: 165px;
+	height: 35px;
+	font-size: 18px;
+	color:black;
+	background-color: white;
+	border: 0.5px solid black;
+}
+
+hr {
+	width: 90%;
+	border: 0.5px solid black;
+	align: center;
+
+}
+
+.top-content {
+	border: 0.5px solid black;
+	display: inline-block;
+	margin: 30px;
+	padding: 10px;
+}
+
+.features {
+	border: 0.5px solid black;
+	width: 40%;
+	margin: 10px;
+}
+
+.about {
+	border: 0.5px solid black;
+	width: 40%;
+	margin: 10px;
 }
