@@ -142,7 +142,7 @@ table {
 html,
 body {
 	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif; 
 }
 
 h1,
@@ -216,6 +216,34 @@ header nav a {
 	font-size: 80px;
 }
 
+/* /////////////////////////////////// */
+
+/* ANIMATION FOR IMAGE*/
+
+.header-img:hover{
+	animation-name: zoomOutLeft;
+	animation-duration: 3s;
+	cursor: pointer;
+} 
+
+@keyframes zoomOutLeft {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+  }
+}
+
+ 
+
 
 .btn {
 	position: absolute;
@@ -269,6 +297,9 @@ TOP CONTENT */
 /* BOTTOM CONTENT */
 
 .bottom-content {
+	/*  GOOGLE FONT IMPLEMENTED BY ME  */
+	/* font-family: 'Germania One', cursive; */
+
 	text-align: left;
 	margin: 50px;
 	margin-top: 10px;
